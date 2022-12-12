@@ -1,0 +1,31 @@
+shebang must be specified in file 
+#! /bin/bash 
+
+#the hashtag is how to make comments
+
+
+#appending to file 
+#this overwrites
+cat > hell.txt
+#this appends
+cat >> hello.txt
+
+#if statement 
+count=10
+if (( count > 10 ))
+then
+            echo "the first condition is true"
+elif [ count -gt 5 ]
+then 
+            echo "the second condition is true"
+else
+            echo "the condition is false
+fi
+
+#and operator
+count=10
+if [ $age -gt 18 ] && [ $age -lt 40 ]
+then 
+      echo "age is correct"
+fi
+
