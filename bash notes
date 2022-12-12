@@ -29,3 +29,11 @@ then
       echo "age is correct"
 fi
 
+
+#while loops 
+count=0
+while (( $count < 0 ))
+do
+            count=$(( count+1 ))
+done
+
